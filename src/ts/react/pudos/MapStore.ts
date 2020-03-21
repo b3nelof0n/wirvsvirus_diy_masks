@@ -29,8 +29,8 @@ class MapStore {
   @action
   public async loadPudos() {
     try {
-      const response = await fetch(`http://dev.koffer.de/test.php`, {
-        headers: { Authorization: 'Basic YOUR_AUTH_HERE' },
+      const response = await fetch(`http://www.tubecourse.com/tubecourse/test.php`, {
+        headers: {  },
       })
 
       this.data = await response.json()
