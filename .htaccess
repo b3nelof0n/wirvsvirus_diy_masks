@@ -1,0 +1,18 @@
+RewriteEngine On
+RewriteCond %{HTTPS} off
+# First rewrite to HTTPS:
+# Don't put www. here. If it is already there it will be included, if not
+# the subsequent rule will catch it.
+RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+# Now, rewrite any request to the wrong domain to use www.
+# [NC] is a case-insensitive match
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule .* https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+Redirect 301 /start /index.html?utm_source=flyer&utm_campaign=start
+Redirect 301 /startqr /index.html?utm_source=flyer&utm_campaign=startqr
+Redirect 301 /ps /index.html?utm_source=psfinder&utm_campaign=ps
+Redirect 301 /suchen /index.html?utm_source=flyer&utm_campaign=suchen
+Redirect 301 /suchenqr /index.html?utm_source=flyer&utm_campaign=suchenqr
+
+Redirect 301 /kunden.html /index.html

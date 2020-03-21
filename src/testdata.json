@@ -1,0 +1,53 @@
+[
+  {
+    "name": "Patrick M\u00fcssig",
+    "pictures": [
+      "https://i.picsum.photos/id/237/200/300.jpg",
+      "https://i.picsum.photos/id/237/200/300.jpg",
+      "https://i.picsum.photos/id/237/200/300.jpg",
+      "https://i.picsum.photos/id/237/200/300.jpg"
+    ],
+    "lat": 50.92955,
+    "lng": 6.91677,
+    "adress": "Arno-Holzstrasse 28 50931 K\u00f6ln",
+    "stock": 1,
+    "price": 1,
+    "currency": "\u20ac",
+    "phone": "+4917684505706",
+    "notes": "Bitte nur bei 80Grad Waschen"
+  },
+  {
+    "name": "Christian M\u00fcssig",
+    "pictures": [
+      "https://i.picsum.photos/id/237/200/300.jpg",
+      "https://i.picsum.photos/id/237/200/300.jpg",
+      "https://i.picsum.photos/id/237/200/300.jpg",
+      "https://i.picsum.photos/id/237/200/300.jpg"
+    ],
+    "lat": 50.92955,
+    "lng": 6.91677,
+    "adress": "Arno-Holzstrasse 27 50930 K\u00f6ln",
+    "stock": 10,
+    "price": 1,
+    "currency": "\u20ac",
+    "phone": "+4917684505706",
+    "notes": "Bitte nur bei 80Grad Waschen"
+  },
+  {
+    "name": "Christian M\u00fcller",
+    "pictures": [
+      "https://i.picsum.photos/id/237/200/300.jpg",
+      "https://i.picsum.photos/id/237/200/300.jpg",
+      "https://i.picsum.photos/id/237/200/300.jpg",
+      "https://i.picsum.photos/id/237/200/300.jpg"
+    ],
+    "lat": 50.92955,
+    "lng": 6.91677,
+    "adress": "Arno-Holzstrasse 27 50930 K\u00f6ln",
+    "stock": 10,
+    "price": 1,
+    "currency": "\u20ac",
+    "phone": "+4917684505706",
+    "notes": "Bitte nur 1x Nutzen"
+  }
+]

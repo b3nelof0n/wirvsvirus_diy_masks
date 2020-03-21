@@ -1,0 +1,13 @@
+$theme-colors: (
+  'secondary': rgb(0, 153, 210),
+);
+
+$font-family-sans-serif: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-weight-bolder: 700;
+
+@import '~bootstrap/scss/bootstrap';
+
+$fa-font-path: '../../node_modules/font-awesome/fonts';
+@import '~font-awesome/scss/font-awesome';
+
+@import 'maps.scss';

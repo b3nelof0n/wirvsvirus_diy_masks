@@ -1,0 +1,42 @@
+{
+  "name": "google-maps-poi-view",
+  "version": "1.0.0",
+  "description": "Die Webseite besteht aus statischen HTML-Seiten, die mit [Parcel Bundler](https://github.com/parcel-bundler/parcel) gebaut werden.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./  --no-source-maps",
+    "lint": "tslint -p ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^12.12.30",
+    "@types/react": "^16.9.25",
+    "@types/react-dom": "^16.9.5",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-clean-dist": "0.0.6",
+    "parcel-plugin-static-files-copy": "^2.3.1",
+    "prettier": "^1.19.1",
+    "sass": "^1.26.3",
+    "tslint": "^5.20.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@react-google-maps/api": "^1.8.6",
+    "bootstrap": "^4.4.1",
+    "core-js": "^3.6.4",
+    "css-loading-spinners": "^0.2.0",
+    "font-awesome": "^4.7.0",
+    "glob": "^7.1.6",
+    "jquery": "^3.4.1",
+    "mobx": "^5.15.4",
+    "mobx-react": "^6.1.8",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "tslint-config-airbnb": "^5.11.2",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-react": "^4.2.0"
+  }
+}

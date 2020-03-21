@@ -1,0 +1,3 @@
+
+/* Images */
+declare module '*.png'
