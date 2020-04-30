@@ -30,7 +30,7 @@
     "css-loading-spinners": "^0.2.0",
     "font-awesome": "^4.7.0",
     "glob": "^7.1.6",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "mobx": "^5.15.4",
     "mobx-react": "^6.1.8",
     "react": "^16.13.1",
